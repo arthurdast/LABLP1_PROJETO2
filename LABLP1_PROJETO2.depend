@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1565110547 source:a:\arthur\ufpb\lablp1_projeto2\main.cpp
+	<iostream>
+
+1565892729 source:a:\arthur\ufpb\lablp1_projeto2\src\apartamento.cpp
+	"Apartamento.h"
+	<iostream>
+	"Imovel.h"
+
+1565892755 a:\arthur\ufpb\lablp1_projeto2\include\apartamento.h
+	<iostream>
+	"Imovel.h"
+
+1565889117 a:\arthur\ufpb\lablp1_projeto2\include\imovel.h
+	<iostream>
+
+1565889790 source:a:\arthur\ufpb\lablp1_projeto2\src\imovel.cpp
+	"Imovel.h"
+	<iostream>
+
+1565892764 source:a:\arthur\ufpb\lablp1_projeto2\src\casa.cpp
+	"Casa.h"
+	<iostream>
+	"Imovel.h"
+
+1565892754 a:\arthur\ufpb\lablp1_projeto2\include\casa.h
+	<iostream>
+	"Imovel.h"
+

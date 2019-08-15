@@ -1,11 +1,18 @@
 #include "Terreno.h"
+#include <iostream>
+#include "Imovel.h"
+using namespace std;
 
 Terreno::Terreno()
 {
-    //ctor
+
 }
 
-Terreno::~Terreno()
+double Terreno::getArea()
 {
-    //dtor
+    return area;
+}
+void Terreno::setArea(double area)
+{
+    this->area=area;
 }

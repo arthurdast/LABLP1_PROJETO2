@@ -1,16 +1,18 @@
 #ifndef TERRENO_H
 #define TERRENO_H
-
-
-class Terreno
+#include <iostream>
+#include "Imovel.h"
+class Terreno: public Imovel
 {
     public:
         Terreno();
-        virtual ~Terreno();
+        double getArea();
+        void setArea(double area);
 
     protected:
 
     private:
+        double area;
 };
 
 #endif // TERRENO_H
